@@ -131,7 +131,15 @@ public class SnakeLadder {
 		{
 			System.out.println(" CONGRULATIONS!!!! "+player2+" You are a WINNER..");
 		}
+		System.out.println("Press 1 to Restart a Game");
+		if(s1.nextInt() == 1)
+		{
+		 main(new String[] {});
+		}
+		else
+		{
 		System.out.println("***Thank You***");
+		}
 	}
 }
 		
